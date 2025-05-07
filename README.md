@@ -1,7 +1,7 @@
 # Aplicativo Web DIAN - Casos de Estudio
 
 ## Desarrolladora
-**Camila Ivanna Danfond Tarazona**
+**Camila Ivanna Dangond Tarazona**
 
 ---
 
@@ -39,7 +39,7 @@ Cada uno de estos casos será presentado en forma de historia de usuario para an
 ## 🛠️ Requerimientos Técnicos
 
 - El desarrollo del FrontEnd debe realizarse en un repositorio privado de GitHub con el nombre:  
-  `Examen_HTML_DanfondCamila`
+  ` ExamenHTML-CSS-CamilaDangond` 
   
 - Se debe incluir este archivo **README.md** documentando el propósito, requerimientos y uso del aplicativo.
 
