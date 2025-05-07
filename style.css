@@ -23,6 +23,9 @@ main{
     border-bottom-right-radius: 70px;
     border-bottom-left-radius: 70px;
 }
+.user{
+    margin-bottom: 5%;
+}
 .img-ppal{
     width: 33%;
 }
@@ -30,6 +33,121 @@ main{
     height: 1em;
 }
 .img-user{
-    width: 30%;
+    width: 100%;
+    grid-row: span 4;
+}
+.contenedor-grid{
+    display: grid;
+}
+.tipo-1{
+    grid-template-columns: 1fr 2fr;
+}
+.tipo-2{
+    grid-template-columns: 2fr 1fr;
+}
+.tipo-1 .nombre{
+    order: 1;
+    grid-column: span 2;
+}
+.tipo-1 .nombre-completo{
+    order: 3;
+} 
+.tipo-1 .usuario{
+    order: 2;
+    grid-row: span 4;
+}
+.tipo-1 .atributo{
+    order:4;
+}
+.tipo-1 .descripcion{
+    order: 5;
+}
+.tipo-1 .necesidades{
+    order: 6;
+}
+.tipo-1 .frase{
+    order: 7;
+}
+.tipo-1 .obstaculos{
+    order: 8;
+    grid-column: span 2;
+}
+.tipo-1 .oportunidades{
+    order: 9;
+    grid-column: span 2;
+}
+.frase{
+    color: rgb(5, 181, 250);
+    text-align: center;
+    padding: 0;
+}
+.tipo-2 .nombre{
+    order: 1;
+    grid-column: span 2;
+}
+.tipo-2 .nombre-completo{
+    order: 2;
+} 
+.tipo-2 .usuario{
+    order: 3;
+    grid-row: span 4;
+}
+.tipo-2 .atributo{
+    order:4;
+}
+.tipo-2 .descripcion{
+    order: 5;
+}
+.tipo-2 .necesidades{
+    order: 6;
+}
+.tipo-2 .obstaculos{
+    order: 7;
+    grid-column: span 2;
+}
+.tipo-2 .oportunidades{
+    order: 8;
+    grid-column: span 2;
+}
+ol{
+    list-style: none;
+}
+div p{
+    text-align: left;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
+.estrategia p, .alcance p{
+    text-align: center;
+}
+hr{
+    width: 95%;
+}
+.contenedor-flex{
+    display: flex;
+}
+.tipo-1 .nombre{
+    width: 33%;
+    text-align: center;
+}
+.tipo-2 .nombre{
+    width: 33%;
+    text-align: center;
+    margin-left: 67%;
+}
+.lista-grid{
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2%;
+}
+.lista-grid li{
+    padding-bottom: 4%;
+}
+.contenedor-grid{
+    align-items: start;
 }
 
+@media screen and  (min-width: 700px ) {
+    .img-user{
+        width:80% ;
+    }
+}
